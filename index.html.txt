@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jurex - Asesoría Legal para Policías</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #1e2a38; color: white; padding: 20px; text-align: center; }
+    nav { background: #2c3e50; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 900px; margin: auto; }
+    h2 { color: #1e2a38; }
+    footer { background: #1e2a38; color: white; text-align: center; padding: 20px; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; }
+    form button { background: #1e2a38; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jurex</h1>
+    <p>Asesoría Legal para Policías</p>
+  </header>
+
+  <nav>
+    <a href="#quienes-somos">Quiénes Somos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenidos a Jurex</h2>
+    <p>Somos un estudio jurídico dedicado exclusivamente a la defensa legal de efectivos policiales y fuerzas de seguridad. Brindamos un servicio integral, ágil y profesional, entendiendo la complejidad de la labor policial y sus implicancias jurídicas.</p>
+  </section>
+
+  <section id="quienes-somos">
+    <h2>Quiénes Somos</h2>
+    <p>En <strong>Jurex</strong>, contamos con un equipo de profesionales con amplia experiencia en derecho administrativo, penal y laboral vinculado a la actividad policial. Nuestro enfoque está puesto en brindar contención, asesoramiento y defensa legal estratégica para quienes arriesgan todo en su labor diaria.</p>
+    <ul>
+      <li>✔️ Compromiso</li>
+      <li>✔️ Confidencialidad</li>
+      <li>✔️ Eficiencia</li>
+      <li>✔️ Empatía con la función policial</li>
+    </ul>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li><strong>Defensa en sumarios administrativos:</strong> Representación integral ante investigaciones internas.</li>
+      <li><strong>Sanciones disciplinarias:</strong> Recursos contra apercibimientos, suspensiones y cesantías.</li>
+      <li><strong>Asistencia en causas penales:</strong> Defensa técnica en procesos penales vinculados al ejercicio de la función policial.</li>
+      <li><strong>Consultoría legal continua:</strong> Respuestas rápidas y seguimiento personalizado.</li>
+      <li><strong>Reincorporaciones y reclamos laborales:</strong> Acciones legales ante cesantías injustas, cambios de destino o afectaciones laborales.</li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tenés una consulta legal? Estamos para ayudarte.</p>
+    <p><strong>Dirección:</strong> [tu dirección]<br>
+    <strong>Teléfono:</strong> [tu número]<br>
+    <strong>WhatsApp:</strong> <a href="https://wa.me/[tunumero]">Contactanos</a><br>
+    <strong>Email:</strong> [correo]</p>
+
+    <form action="#" method="post">
+      <input type="text" name="nombre" placeholder="Nombre completo" required>
+      <input type="tel" name="telefono" placeholder="Teléfono" required>
+      <textarea name="consulta" rows="5" placeholder="Escribí tu consulta..." required></textarea>
+      <button type="submit">Enviar consulta</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jurex - Asesoría Legal para Policías</p>
+  </footer>
+</body>
+</html>
